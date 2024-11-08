@@ -1,0 +1,293 @@
+  /* General Layout */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+  }
+  
+  .page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4fd1c5; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header Section */
+  .header {
+    height: 5rem; 
+    color: black;
+    text-align: end;
+    padding-top: 1rem; 
+    padding-right: 4rem; 
+    font-size: 1rem; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  /* Navbar Buttons */
+  .nav-button,
+  .nav-button-large {
+    width: 3rem; 
+    height: 2rem; 
+    padding: 0.25rem; 
+    margin-left: 1rem; 
+  }
+  
+  .nav-button-large {
+    width: 4%; 
+  }
+  
+  /* Main Content Section */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    padding-right: 5rem; 
+    padding-bottom: 13rem; 
+    flex-direction: row;
+    gap: 2rem; 
+  }
+  
+  /* Text Container */
+  .text-container {
+    text-align: left;
+    padding-left: 1rem; 
+  }
+  
+  /* Text Header */
+  .text-header {
+    color: black;
+    font-size: 1.875rem; 
+    line-height: 1.5;
+  }
+  
+  .text-header i {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  /* Image Container */
+  .image-container img {
+    width: 18rem; 
+    height: 18rem; 
+    border-radius: 50%;
+    border: 4px solid black; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    object-fit: cover;}
+  
+
+  /*contact 
+
+  /* Contact Section */
+.contact-section {
+    padding-top: 4rem; 
+    padding-bottom: 4rem; 
+    text-align: center;
+    background-color: #4fd1c5; 
+    color: black;
+  }
+  
+  .contact-container {
+    max-width: 48rem; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-header {
+    font-size: 1.875rem; 
+    font-weight: 600; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .contact-description {
+    font-size: 1.125rem; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .contact-button {
+    background-color: #fbbf24; 
+    color: black;
+    padding-top: 0.75rem; 
+    padding-bottom: 0.75rem; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .contact-button:hover {
+    background-color: #facc15; 
+  }
+
+  /* Footer Section */
+.footer {
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    background-color: #2d3748; 
+    text-align: center;
+    color: white;
+  }  
+
+  /* General Layout for Projects */
+.projects-page {
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #4fd1c5; 
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem; 
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem; 
+  }
+  
+  .pt-7 {
+    padding-top: 1.75rem; 
+  }
+  
+  .max-w-4xl {
+    max-width: 56rem; 
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
+  .gap-6 {
+    gap: 1.5rem; 
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center; 
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2563eb;
+  }
+  
+  a.underline {
+    text-decoration: underline; 
+  }
+
+  /* Skills Section */
+.skills-section {
+    background-color: #f7fafc; 
+    padding-top: 4rem; 
+    padding-bottom: 4rem;
+  }
+  
+  /* Container for Skill Titles */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Skill Title */
+  .skills-title {
+    font-size: 1.875rem; 
+    font-weight: 600; 
+    color: #2d3748; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  /* Skill Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem; 
+  }
+  
+  /* Media Query for Larger Screens (MD) */
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(4, 1fr); 
+      padding-left: 3rem; 
+      padding-right: 3rem; 
+    }
+  }
+  
+  /* Individual Skill Card */
+  .skill-card {
+    background-color: white; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  
+  /* Skill Card Title */
+  .skill-card h3 {
+    font-size: 1.125rem; 
+    font-weight: 500; 
+    color: #4a5568; 
+  }
+
+  /* General Container */
+.about-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem; 
+    height: 100vh; 
+    width: 100vw; 
+    background-color: white; 
+  }
+  
+  /* Image Styling */
+  .about-image {
+    height: 24rem;
+    width: 24rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding-left: 2.75rem; 
+  }
+  
+  /* Text Container */
+  .text-container {
+    display: flex;
+    justify-content: center;
+    text-align: inherit;
+    color: black; 
+    padding-right: 7rem; 
+  }
+  
+  /* Paragraph Styling */
+  .about-text {
+    padding-left: 5rem; 
+    font-size: 1.5rem; 
+    color: inherit;
+    line-height: 1.75;
+  }
+  
+  /* Text Emphasis (italic and bold) */
+  .about-text b, .about-text i {
+    font-weight: bold;
+    font-style: italic;
+  }
